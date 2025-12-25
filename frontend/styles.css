@@ -1,1 +1,42 @@
 
+:root {
+  --pink-primary: #ec4899;
+  --pink-light: #fbcfe8;
+  --pink-bg: #fff1f2;
+  --text-dark: #1f2937;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--pink-bg);
+  color: var(--text-dark);
+}
+
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: var(--pink-primary);
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--pink-primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
